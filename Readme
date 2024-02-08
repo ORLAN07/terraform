@@ -1,0 +1,7 @@
+This is terraform starting
+commands:
+    - terraform init //inicializa el entorno y el ambiente de trabajo con los providers agregados en el archivo providers.tf
+    - terraform fmt --recursive //formatea todo el entorno de trabajo
+    - terraform plan //valida e identifica todos los cambios nuevos a realizar en la nube
+    - terraform apply -auto-approve //aplica todos los cambios generados en el entorno de trabajo (los que se evidenciaron en el comando del plan)
+    - terraform destroy //destruye todos los cambios en la nube que se hayan realizado
